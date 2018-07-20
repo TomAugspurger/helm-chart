@@ -12,6 +12,7 @@ RUN conda install --yes \
     cython \
     cytoolz \
     dask=0.18.0 \
+    dask-ml \
     distributed=1.22.0 \
     esmpy \
     fastparquet \
@@ -27,6 +28,7 @@ RUN conda install --yes \
     python-blosc \
     s3fs \
     scikit-image \
+    scikit-learn \
     toolz=0.9.0 \
     tornado=5.0.2 \
     scipy \
